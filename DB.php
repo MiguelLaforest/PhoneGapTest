@@ -10,4 +10,4 @@
 $_POST = json_decode(trim(file_get_contents("php://input")));
 
 $code = $_POST['code'];
-echo json_encode($code);
+echo json_encode(7);
